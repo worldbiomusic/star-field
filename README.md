@@ -7,3 +7,6 @@ move your mouse left: speed down
 move your mouse right: speed up
 
 and color will change also
+
+# Play
+https://worldbiomusic.github.io/star-field/.
