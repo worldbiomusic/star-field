@@ -24,7 +24,7 @@ class Star
   show()
   {
     fill(255);
-    noStroke()
+    noStroke();
     
     let sx = map(this.x / this.z, 0, 1, 0, width);
     let sy = map(this.y / this.z, 0, 1, 0, height);
@@ -33,7 +33,7 @@ class Star
     
     // ellipse(sx, sy, r, r); 
     
-    stroke(200, 100, 0);
+    stroke(mouseX, random(255), mouseY);
     line(this.px, this.py, sx, sy); 
     
     this.px = sx;
